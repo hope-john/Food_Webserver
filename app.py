@@ -37,6 +37,10 @@ class_names = [ '3_Layer_Fried_Pork', 'Apple' ,'Bacon', 'Baked_Spinach_Cheese' ,
  'Todmun' ,'Tom_Yum_Kung', 'Tomjabchai' ,'Tongmuan', 'Tubtimgrob', 'Waffle',
  'Watermelon' ,'Wun', 'Yentafour','Yum_Mama','no_data']
 
+calories = [
+     199,0 ,290
+ ]
+
 app = Flask(__name__)
 api = Api(app)
 
@@ -62,10 +66,12 @@ def upload():
         predictions = model.predict(img_array)
         score = tf.nn.softmax(predictions[0])
 
-        class_name = class_names[np.argmax(score)]
+        index = np.argmax(score)
+        class_name = class_names[index]
+        cal = calories[index]
         score = 100 * np.max(score)
         
-        return json.dumps({'class':class_name, 'score': score})
+        return json.dumps({'class':class_name, 'score': score ,'calories':calories})
 
 api.add_resource(HelloWorld, '/')
 
