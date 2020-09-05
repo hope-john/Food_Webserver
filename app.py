@@ -45,9 +45,49 @@ calories = [
 409, 300, 645, 77, 297, 420, 176, 140, 290, 595, 90, 742, 297, 516, 60, 210, 300,
 80, 585, 313, 230, 61, 874, 140, 264, 291, 30, 67, 352, 215]
 
-Reference1=['www.google.co.th','so no']
+Reference1=['https://www.calforlife.com','https://www.lovefitt.com','https://www.nutritionix.com/','https://www.calforlife.com','https://www.calforlife.com/',
+'https://www.calforlife.com/','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com',
+'https://www.lovefitt.com/','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com',
+'http://iandmybody.com/','http://iandmybody.com/','http://iandmybody.com/','http://iandmybody.com/','http://iandmybody.com/',
+'http://event.sanook.com/health/calories/','http://event.sanook.com/health/calories/','http://event.sanook.com/health/calories/','http://event.sanook.com/health/calories/','http://event.sanook.com/health/calories/',
+'https://www.honestdocs.co/table-of-calories-in-food-types','https://www.calforlife.com','https://www.calforlife.com','http://event.sanook.com/health/calories/','https://www.calforlife.com',
+'https://www.fatnever.com/calories/','https://www.honestdocs.co/table-of-calories-in-food-types','https://www.calforlife.com/','https://www.calforlife.com/','https://www.calforlife.com/',
+'https://www.fatnever.com/calories/','https://www.fatnever.com/calories/','https://www.fatnever.com/calories/','https://www.honestdocs.co/table-of-calories-in-food-types','https://www.fatnever.com/calories/',
+'https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.fatnever.com/calories/','https://www.honestdocs.co/table-of-calories-in-food-types',
+'https://www.wongnai.com','https://www.fatnever.com/calories//','https://www.wongnai.com','https://www.wongnai.com','https://www.wongnai.com',
+'https://www.fatnever.com/calories/','https://www.calforlife.com/','https://www.calforlife.com/','https://www.calforlife.com/','https://www.calforlife.com/',
+'https://www.fatnever.com/calories/','https://www.fatnever.com/calories/','https://www.fatnever.com/calories/','https://www.fatnever.com/calories/','https://www.fatnever.com/calories/',
+'https://www.wongnai.com','https://www.wongnai.com','https://www.wongnai.com','https://www.wongnai.com','https://www.wongnai.com',
+'https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com',
+'https://www.fatnever.com/calories/','https://www.fatnever.com/calories/','https://www.fatnever.com/calories/','https://www.fatnever.com/calories/','https://www.fatnever.com/calories/',
+'https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com',
+'https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com',
+'https://www.lovefitt.com/','https://www.lovefitt.com/','https://www.lovefitt.com/','https://www.lovefitt.com/','https://www.lovefitt.com/',
+'https://www.lovefitt.com','https://www.lovefitt.com','https://www.lovefitt.com','https://www.lovefitt.com','https://www.lovefitt.com',
+'https://www.calforlife.com/','https://www.calforlife.com/','https://www.calforlife.com/','https://www.calforlife.com/','https://www.priceza.com']
 
-Reference2=['www.facebook.com','so no']
+Reference2=['-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-',
+'-','-','-','-','-']
 
 app = Flask(__name__)
 api = Api(app)
