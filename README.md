@@ -5,12 +5,12 @@ Steps
 --------
 Build Docker Image according to Dockerfile named "ai-pizza"
 ```
-docker build -t ai-pizza .
+docker build -t ai-food .
 ```
 
 Create docker container with the image you just created
 ```
-docker run --name ai-pizza -dp 5000:5000 ai-pizza
+docker run --name ai-food -dp 5000:5000 ai-food
 ```
 
 CURL to check it works
@@ -26,6 +26,6 @@ form-data:
   value: your file <Click and select it>
 ```
 if stuck
-docker stop ai-pizza 
-docker rm ai-pizza  
+docker stop ai-food 
+docker rm ai-food 
 GOOD LUCK
