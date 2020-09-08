@@ -15,7 +15,7 @@ from flask_restful import Resource, Api
 img_height = 224
 img_width = 224
 
-model = tf.keras.models.load_model('./pizza_model')
+model = tf.keras.models.load_model('./food_model')
 class_names = [ '3_Layer_Fried_Pork', 'Apple' ,'Bacon', 'Baked_Spinach_Cheese' ,'Banana',
 'Bao', 'Bolona', 'Cabbagefriedshrimp', 'Chayen', 'Crispywonton',
 'Curryfriedrice', 'Dragonfruit' ,'Eclair' ,'Frenchfries', 'Fried_Chicken',
