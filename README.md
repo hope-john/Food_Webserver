@@ -1,9 +1,9 @@
 # food-identification
-An artificial intelligence application to identify hotdog. Using flutter, python, and tensorflow. 
+An artificial intelligence application to identify food. Using flutter, python, and tensorflow. 
 
 Steps
 --------
-Build Docker Image according to Dockerfile named "ai-pizza"
+Build Docker Image according to Dockerfile named "ai-food"
 ```
 docker build -t ai-food .
 ```
