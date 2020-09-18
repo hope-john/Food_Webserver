@@ -112,6 +112,7 @@ def upload():
         img_array = tf.expand_dims(img_array, 0)
 
         predictions = model.predict(img_array)
+        score = predictions[0]
 
         index = np.argmax(score)
         class_name = class_names[index]
