@@ -29,9 +29,10 @@ class_names = ['Bamemoodang', 'Gangkeawwan', 'Guayjab', 'Hoitod', 'Joke', 'Kaipa
 'Moopudking', 'Padseiew', 'Padthai', 'Phalo', 'Radnamoo', 'Salad', 'Somtum', 'Suki', 'Taohusongkrueng', 'Tomyumkung', 'Yentafour', 'Yummama', 'Yummooyor']
 
 calories = [
-405 ,63 ,540, 452, 89, 180, 247, 175, 35, 78, 475, 60, 200, 311, 500, 112, 397, 90, 
-90, 90, 186, 70, 240, 140, 63, 810, 508, 200, 280, 120, 285, 55, 120, 127, 52, 455,
-690, 410, 729, 550]
+425, 240, 279, 580, 160, 355, 1005, 445, 438, 520,
+614, 540, 550, 440, 695, 720, 559, 645, 610, 595,
+764, 395, 640, 630, 435, 591, 150, 275, 680, 450,
+180, 490, 120, 55, 234, 634, 320, 420, 215, 125]
 
 #Reference1=['https://www.calforlife.com','https://www.lovefitt.com','https://www.nutritionix.com/','https://www.calforlife.com','https://www.calforlife.com/',
 #'https://www.calforlife.com/','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com','https://www.calforlife.com',
